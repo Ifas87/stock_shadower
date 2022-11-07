@@ -1,0 +1,24 @@
+.primis{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.primus_in_primo{
+  position: relative;
+  width: 100%;
+  height: 183px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.secundo_in_primo{
+  position: absolute;
+  width: 100%;
+  height: 901px;
+
+  background: rgba(255, 255, 255, 0.75);
+}
