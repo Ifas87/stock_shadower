@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 .primis{
   position: relative;
   display: flex;
@@ -34,4 +37,24 @@
   background: none;
   background: rgba(255, 255, 255, 0.75);
   
+}
+
+.title_fonts{
+  font-family: 'Montserrat';
+  font-size: 64px;
+}
+
+.sub_title_fonts{
+  font-family: 'Montserrat';
+  font-size: 36px;
+}
+
+.desc_fonts{
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.standard_box{
+  padding: 5px;
+  margin: 5px;
 }
