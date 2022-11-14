@@ -79,3 +79,7 @@
 .quinque{
   flex-grow: 5;
 }
+
+.metaBox{
+  display: flex;
+}
