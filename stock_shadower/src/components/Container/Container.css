@@ -83,3 +83,28 @@
 .metaBox{
   display: flex;
 }
+
+.stockbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 330px;
+  height: 155px;
+
+  background: rgba(0, 0, 0, 0.83);
+  border-radius: 50px;
+}
+
+.ticker{
+
+}
+
+.Comp_name{
+
+}
+
+.Value{
+  
+}
