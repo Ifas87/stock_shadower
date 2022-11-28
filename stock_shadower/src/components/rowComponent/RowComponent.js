@@ -2,10 +2,10 @@ import '../Container/Container.css';
 
 function RowComponent(){
     
-      
+    let childStocks = [];
 
     return(
-        <div></div>
+        <div className='rowParent'></div>
     );
 }
 
