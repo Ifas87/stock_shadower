@@ -2,7 +2,12 @@ import '../Container/Container.css';
 
 function Adder(){
     return(
-        <div></div>
+        <div>
+            <div className='primis'>
+                <TopBar></TopBar>
+                <Mainbody></Mainbody>
+            </div>
+        </div>
     );
 }
 
