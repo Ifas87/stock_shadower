@@ -1,25 +1,18 @@
 import './App.css';
 import Container from "./components/Container/Container"
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Adder from './components/Adder/Adder';
 
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/">
-          <Container></Container>
-        </Route>
+      <Routes>
+        <Route path="/" element={<Container />}></Route>
 
-        <Route path="/add">
-          <Adder></Adder>
-        </Route>
+        <Route path="/add" element={<Adder/>}></Route>
 
-        <Route>
-          
-        </Route>
-
-      </Switch>
+        <Route path="/about"></Route>
+      </Routes>
     </BrowserRouter>
   );
 }
