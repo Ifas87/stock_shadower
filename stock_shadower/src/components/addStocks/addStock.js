@@ -2,7 +2,14 @@ import "../Container/Container.css";
 
 function addStock(){
     return(
-        <div></div>
+        <div>
+            <form>
+                <input type={text}></input>
+                <input type={text}></input>
+                <input type={text}></input>
+                <input type={text}></input>
+            </form>
+        </div>
     );
 }
 
