@@ -6,7 +6,7 @@ function addStock(){
             <form>
                 <input type={text}></input>
                 <input type={text}></input> 
-                <input type={text}></input>  
+                <input type={text}></input>   
                 <input type={text}></input> 
             </form>
         </div>
