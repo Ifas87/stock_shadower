@@ -2,12 +2,10 @@ import "../Container/Container.css";
 
 function addStock(){
     return(
-        <div>
+        <div className="secundo_in_primo">
             <form>
+                <label>Enter stock name through ticker</label>
                 <input type={text}></input>
-                <input type={text}></input> 
-                <input type={text}></input>    
-                <input type={text}></input> 
             </form>
         </div>
     );
