@@ -2,7 +2,7 @@ import "../Container/Container.css";
 
 function TargetSetter(){
     return(
-        <input type={text}></input>
+        <input type={text}></input> 
     );
 }
 
