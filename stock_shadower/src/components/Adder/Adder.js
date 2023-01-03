@@ -1,6 +1,6 @@
 import '../Container/Container.css';
 import TopBar from '../Topbar/Topbar';
-import Mainbody from '../Mainbody/Mainbody';
+import Mainbody from '../Mainbody/Mainbody'; 
 
 function Adder(){
     return(
