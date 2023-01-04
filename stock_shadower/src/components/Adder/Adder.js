@@ -5,7 +5,7 @@ import Mainbody from '../Mainbody/Mainbody';
 function Adder(){
     return(
         <div>
-            <div className='primis'>
+            <div className='primis'> 
                 <TopBar></TopBar>
                 <Mainbody></Mainbody>
             </div>
